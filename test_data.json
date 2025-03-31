@@ -1,0 +1,58 @@
+{
+    "ksiazki": [
+        {
+            "tytul": "Pan Tadeusz",
+            "autor": "Adam Mickiewicz",
+            "rok_wydania": 1834,
+            "id_ksiazki": 1,
+            "wypozyczona": true,
+            "data_zwrotu": null
+        },
+        {
+            "tytul": "Lalka",
+            "autor": "Boles\u0139\u201aaw Prus",
+            "rok_wydania": 1890,
+            "id_ksiazki": 2,
+            "wypozyczona": true,
+            "data_zwrotu": "2023-10-15"
+        },
+        {
+            "tytul": "Quo Vadis",
+            "autor": "Henryk Sienkiewicz",
+            "rok_wydania": 1896,
+            "id_ksiazki": 3,
+            "wypozyczona": false,
+            "data_zwrotu": null
+        }
+    ],
+    "uzytkownicy": [
+        {
+            "imie": "Jan",
+            "nazwisko": "Kowalski",
+            "id_uzytkownika": 1,
+            "wypozyczone_ksiazki": []
+        },
+        {
+            "imie": "Anna",
+            "nazwisko": "Nowak",
+            "id_uzytkownika": 2,
+            "wypozyczone_ksiazki": [
+                {
+                    "tytul": "Lalka",
+                    "autor": "Boles\u0139\u201aaw Prus",
+                    "rok_wydania": 1890,
+                    "id_ksiazki": 2,
+                    "wypozyczona": true,
+                    "data_zwrotu": "2023-10-15"
+                }
+            ]
+        }
+    ],
+    "historia": [
+        {
+            "uzytkownik": "Anna Nowak",
+            "ksiazka": "Lalka",
+            "data": "2023-10-08"
+        }
+    ]
+}
